@@ -1,0 +1,30 @@
+/* Custom Midnight Developer Theme overrides */
+:root {
+  --vp-home-hero-name-color: transparent;
+  --vp-home-hero-name-background: linear-gradient(135deg, #646cff 0%, #00d2ff 100%);
+  --vp-c-brand-1: #646cff;
+  --vp-c-brand-2: #535bf2;
+}
+
+/* Deep dark mode styling */
+.dark {
+  --vp-c-bg: #0f111a;
+  --vp-c-bg-alt: #161925;
+  --vp-c-bg-elv: #1e2235;
+}
+
+/* Clean cards for your projects and skills */
+h3 {
+  margin-top: 2rem !important;
+  color: var(--vp-c-brand-1);
+}
+
+ul {
+  padding-left: 1.2rem;
+  line-height: 1.6;
+}
+
+hr {
+  border-top: 1px solid rgba(255, 255, 255, 0.08);
+  margin: 3rem 0;
+}
