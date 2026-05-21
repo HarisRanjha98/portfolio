@@ -4,7 +4,7 @@ layout: home
 
 hero:
   name: "Muhammad Haris | Software Engineer"
-  text: "High-performance .NET & Backend Portfolio"
+  text: "Backend & Full-Stack Engineer"
   tagline: "Building high-performance, robust data layers and scalable web applications using .NET & Angular."
   actions:
     - theme: brand
@@ -18,13 +18,13 @@ hero:
 
 ## Technical Toolbelt
 
-- **Languages & Frameworks:** C#, .NET 10, ASP.NET Core MVC, Web API
+- **Backend & APIs:** C#, .NET 10, ASP.NET Core MVC, Web API, RESTful Services
+- **Frontend Frameworks:** Angular, TypeScript, RxJS, Responsive UI Components
 - **Data & Optimization:** SQL Server, Dapper, High-Performance Raw SQL, Query Optimization
-- **Tools & Architecture:** Git, RESTful APIs, System Design, Modular Architecture
-
+- **Tools & Architecture:** Git, Clean Architecture, System Design, Modular Ecosystems
 ---
 
-## Featured Projects {#projects}
+<!-- ## Featured Projects {#projects}
 
 ### 🚀 Production-Grade Website Builder & Custom CMS
 A lightweight, high-performance content management system designed to eliminate the runtime overhead of heavy framework abstractions.
@@ -40,7 +40,7 @@ A lightweight, high-performance content management system designed to eliminate 
 A specialized backend service engineered to calculate, split, and audit multi-party expenses across complex group outings.
 
 - **The Tech Stack:** .NET Core, Web API, SQL Server
-- **The Core Engine:** Developed an exact-precision mathematical algorithm to calculate multi-person per-head debt divisions, optimizing the transaction graph to minimize the total number of transfers required between members.
+- **The Core Engine:** Developed an exact-precision mathematical algorithm to calculate multi-person per-head debt divisions, optimizing the transaction graph to minimize the total number of transfers required between members. -->
 
 ---
 
