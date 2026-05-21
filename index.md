@@ -5,56 +5,44 @@ layout: home
 hero:
   name: "Muhammad Haris | Software Engineer"
   text: "Backend & Full-Stack Engineer"
-  tagline: "Building high-performance, robust data layers and scalable web applications using .NET & Angular."
+  tagline: "Crafting beautiful, high-performance systems. Specialized in the architectural design of enterprise backends and modern client-side software."
   actions:
     - theme: brand
-      text: View Production Projects
-      link: #projects
+      text: View Work
+      link: #work
     - theme: alt
       text: GitHub
       link: https://github.com/HarisRanjha98
 
 ---
+<div id="work" class="noah-section">
+  <div class="noah-number">01</div>
+  <div class="noah-title">Technical Competence</div>
 
-## Technical Toolbelt
+  - **Architectural Engineering:** C#, .NET 10, ASP.NET Core MVC, Web API, Architecture Design
+  - **Interface Design:** Angular, TypeScript, RxJS Responsive Streams, Component Frameworks
+  - **Data Layer Access:** SQL Server, High-Speed Dapper Engine, Query Profiling & Optimization
+</div>
 
-- **Backend & APIs:** C#, .NET 10, ASP.NET Core MVC, Web API, RESTful Services
-- **Frontend Frameworks:** Angular, TypeScript, RxJS, Responsive UI Components
-- **Data & Optimization:** SQL Server, Dapper, High-Performance Raw SQL, Query Optimization
-- **Tools & Architecture:** Git, Clean Architecture, System Design, Modular Ecosystems
----
+<div class="noah-section">
+  <div class="noah-number">02</div>
+  <div class="noah-title">Core Projects</div>
 
-<!-- ## Featured Projects {#projects}
+  ### ⚡ Custom CMS Engine & Dynamic Layout Compiler
+  An independent, lightweight content management platform structured to replace heavy, high-overhead abstractions with direct data pipelines.
+  - *The Strategy:* Replaced resource-intensive framework stacks with raw SQL queries mapping through Dapper, cutting query overhead drastically.
+  - *The Interface:* Engineered a clean administrative interface configuration providing fast layout compilation on the fly.
 
-### 🚀 Production-Grade Website Builder & Custom CMS
-A lightweight, high-performance content management system designed to eliminate the runtime overhead of heavy framework abstractions.
+  ### 📊 Distributed Mathematical Expense Engine
+  A dedicated application built to resolve transactional balances and split shared expenses dynamically across multi-user environments.
+  - *The Back-End:* Formulated a discrete transaction calculation graph algorithm designed to optimize and reduce the absolute number of required banking transfers.
+  - *The Front-End:* Connected the calculation system into an active Angular application layer powered by non-blocking RxJS streaming state.
+</div>
 
-- **The Problem:** Traditional CMS platforms rely on heavy ORMs that introduce significant query overhead, slow page generation times, and complex database layers.
-- **The Solution:** Built a modular ASP.NET Core MVC architecture utilizing a raw SQL and Dapper data access layer to maximize throughput and achieve near-instantaneous data mapping.
-- **Key Achievements:**
-  - Designed a dynamic, high-performance relational database schema to support flexible, user-generated website layouts.
-  - Replaced high-abstraction database layers with optimized raw SQL queries, significantly reducing connection pooling stress and memory allocation.
-  - Implemented a clean separation of concerns using a lightweight, custom service layer.
+<div class="noah-section">
+  <div class="noah-number">03</div>
+  <div class="noah-title">Timeline</div>
 
-### 🛠️ Distributed Expense Management Engine
-A specialized backend service engineered to calculate, split, and audit multi-party expenses across complex group outings.
-
-- **The Tech Stack:** .NET Core, Web API, SQL Server
-- **The Core Engine:** Developed an exact-precision mathematical algorithm to calculate multi-person per-head debt divisions, optimizing the transaction graph to minimize the total number of transfers required between members. -->
-
----
-
-## Professional Journey
-
-#### **Web App Developer** | Futuresol Technology Consultants *(Aug 2022 - May 2026)*
-- Architected and maintained enterprise-level web applications using the .NET ecosystem.
-- Optimized database architectures, writing complex relational queries and tuning indexes to handle high-concurrency workloads.
-- Collaborated with frontend teams to deliver seamless, performant MVC views and robust API endpoints.
-
----
-
-## Contact & Connections
-
-- **Email:** ha786929@gmail.com , m_haris220998@yahoo.com
-- **LinkedIn:** [Muhammad Haris](https://www.linkedin.com/in/muhammad-haris-2297a2146)
-- **GitHub:** [HarisRanjha98](https://github.com/HarisRanjha98)
+  #### **Web Application Developer** — Futuresol *(2022 - 2026)*
+  Built enterprise core systems using clean design patterns, performed targeted performance optimizations across continuous database environments, and delivered production feature sets from system layer to final responsive client application views.
+</div>

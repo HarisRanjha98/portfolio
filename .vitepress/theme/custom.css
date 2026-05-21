@@ -1,30 +1,105 @@
-/* Custom Midnight Developer Theme overrides */
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,700;1,400&family=Poppins:wght@300;400;500;600&display=swap');
+
 :root {
-  --vp-home-hero-name-color: transparent;
-  --vp-home-hero-name-background: linear-gradient(135deg, #646cff 0%, #00d2ff 100%);
-  --vp-c-brand-1: #646cff;
-  --vp-c-brand-2: #535bf2;
+  /* Noah's Signature Minimalist Color Palette */
+  --vp-c-brand-1: #000000;
+  --vp-c-brand-2: #222222;
+  --vp-c-text-1: #1a1a1a;
+  --vp-c-text-2: #666666;
+  --vp-c-bg: #ffffff;
+  --vp-c-bg-alt: #f9f9f9;
+  --vp-c-bg-elv: #ffffff;
+  
+  /* Fonts */
+  --vp-font-family-base: 'Poppins', sans-serif;
 }
 
-/* Deep dark mode styling */
+/* Dark mode fallback variants */
 .dark {
-  --vp-c-bg: #0f111a;
-  --vp-c-bg-alt: #161925;
-  --vp-c-bg-elv: #1e2235;
+  --vp-c-brand-1: #ffffff;
+  --vp-c-brand-2: #dddddd;
+  --vp-c-text-1: #f3f3f3;
+  --vp-c-text-2: #aaaaaa;
+  --vp-c-bg: #121212;
+  --vp-c-bg-alt: #1a1a1a;
+  --vp-c-bg-elv: #1e1e1e;
 }
 
-/* Clean cards for your projects and skills */
-h3 {
-  margin-top: 2rem !important;
-  color: var(--vp-c-brand-1);
+/* --- Noah Style Layout Adjustments --- */
+
+/* Hero Text formatting to match the artistic serif vibe */
+.VPHero .name {
+  font-family: 'Playfair Display', serif !important;
+  font-size: 4rem !important;
+  font-weight: 700 !important;
+  color: var(--vp-c-text-1) !important;
+  background: none !important;
+  letter-spacing: -1px;
 }
 
-ul {
-  padding-left: 1.2rem;
-  line-height: 1.6;
+.VPHero .text {
+  font-family: 'Poppins', sans-serif;
+  font-weight: 300 !important;
+  text-transform: uppercase;
+  letter-spacing: 3px;
+  font-size: 1.1rem !important;
+  color: var(--vp-c-text-2) !important;
+  margin-top: 10px;
 }
 
-hr {
-  border-top: 1px solid rgba(255, 255, 255, 0.08);
-  margin: 3rem 0;
+/* Custom layout sections simulating Noah's portfolio blocks */
+.noah-section {
+  padding: 5rem 0;
+  border-top: 1px solid rgba(0,0,0,0.07);
+}
+.dark .noah-section {
+  border-top: 1px solid rgba(255,255,255,0.07);
+}
+
+/* Big counter styling (01, 02, etc.) */
+.noah-number {
+  font-family: 'Playfair Display', serif;
+  font-size: 3.5rem;
+  font-style: italic;
+  font-weight: 400;
+  color: #e5e5e5;
+  line-height: 1;
+  margin-bottom: 0.5rem;
+}
+.dark .noah-number {
+  color: #333333;
+}
+
+.noah-title {
+  font-family: 'Playfair Display', serif;
+  font-size: 2.2rem;
+  font-weight: 700;
+  margin-bottom: 2rem;
+}
+
+/* Pure minimalist buttons */
+.VPButton.brand {
+  background-color: #000000 !important;
+  color: #ffffff !important;
+  border-radius: 0px !important;
+  text-transform: uppercase;
+  font-size: 0.8rem;
+  letter-spacing: 2px;
+  padding: 0 30px !important;
+  transition: all 0.3s ease;
+}
+.dark .VPButton.brand {
+  background-color: #ffffff !important;
+  color: #000000 !important;
+}
+
+.VPButton.alt {
+  border-radius: 0px !important;
+  border: 1px solid #000000 !important;
+  text-transform: uppercase;
+  font-size: 0.8rem;
+  letter-spacing: 2px;
+}
+.dark .VPButton.alt {
+  border: 1px solid #ffffff !important;
 }
