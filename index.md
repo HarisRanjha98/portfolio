@@ -56,5 +56,5 @@ A specialized backend service engineered to calculate, split, and audit multi-pa
 ## Contact & Connections
 
 - **Email:** ha786929@gmail.com , m_haris220998@yahoo.com
-- **LinkedIn:** [linkedin.com/in/yourprofile](https://www.linkedin.com/in/muhammad-haris-2297a2146)
-- **GitHub:** [github.com/your-github-username](https://github.com/HarisRanjha98)
+- **LinkedIn:** [Muhammad Haris](https://www.linkedin.com/in/muhammad-haris-2297a2146)
+- **GitHub:** [HarisRanjha98](https://github.com/HarisRanjha98)
