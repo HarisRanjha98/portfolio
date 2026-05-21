@@ -2,6 +2,7 @@ import { defineConfig } from 'vitepress'
 
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
+  base: '/portfolio/',  // <-- ADD THIS EXACT LINE
   title: "Muhammad Haris | Software Engineer",
   description: "High-performance .NET & Backend Portfolio",
   themeConfig: {
