@@ -6,6 +6,9 @@ hero:
   name: "Muhammad Haris | Software Engineer"
   text: "Backend & Full-Stack Engineer"
   tagline: "Crafting beautiful, high-performance systems. Specialized in the architectural design of enterprise backends and modern client-side software."
+  image:
+    src: /avatar.jpg
+    alt: Muhammad Profile Picture
   actions:
     - theme: brand
       text: View Work
@@ -13,7 +16,6 @@ hero:
     - theme: alt
       text: GitHub
       link: https://github.com/HarisRanjha98
-
 ---
 <div id="work" class="noah-section">
   <div class="noah-number">01</div>
