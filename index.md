@@ -26,7 +26,7 @@ hero:
   - **Data Layer Access:** SQL Server, High-Speed Dapper Engine, Query Profiling & Optimization
 </div>
 
-<div class="noah-section">
+<!-- <div class="noah-section">
   <div class="noah-number">02</div>
   <div class="noah-title">Core Projects</div>
 
@@ -39,10 +39,10 @@ hero:
   A dedicated application built to resolve transactional balances and split shared expenses dynamically across multi-user environments.
   - *The Back-End:* Formulated a discrete transaction calculation graph algorithm designed to optimize and reduce the absolute number of required banking transfers.
   - *The Front-End:* Connected the calculation system into an active Angular application layer powered by non-blocking RxJS streaming state.
-</div>
+</div> -->
 
 <div class="noah-section">
-  <div class="noah-number">03</div>
+  <div class="noah-number">02</div>
   <div class="noah-title">Timeline</div>
 
   #### **Web Application Developer** — Futuresol *(2022 - 2026)*
