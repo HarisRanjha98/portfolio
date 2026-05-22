@@ -103,3 +103,43 @@
 .dark .VPButton.alt {
   border: 1px solid #ffffff !important;
 }
+
+/* Custom styling to make the hero image look polished */
+.VPHero .image-src {
+  border-radius: 8px !important;
+  box-shadow: 0 20px 40px rgba(0, 0, 0, 0.1);
+  filter: grayscale(10%) contrast(105%);
+}
+
+/* --- Custom 'sponsor' Theme: Premium Subtle Accent --- */
+.VPButton.sponsor {
+  background-color: #646cff !important;
+  color: #ffffff !important;
+  border-radius: 0px !important;
+  text-transform: uppercase;
+  font-size: 0.8rem;
+  letter-spacing: 2px;
+  padding: 0 30px !important;
+  font-weight: 500;
+  border: 1px solid #646cff !important;
+}
+.VPButton.sponsor:hover {
+  background-color: #535bf2 !important;
+  border-color: #535bf2 !important;
+}
+
+/* --- Custom 'minimal' Theme: Borderless Link Style --- */
+.VPButton.minimal {
+  background-color: transparent !important;
+  color: var(--vp-c-text-1) !important;
+  border: none !important;
+  padding: 0 15px !important;
+  text-transform: uppercase;
+  font-size: 0.8rem;
+  letter-spacing: 2px;
+  font-weight: 500;
+}
+.VPButton.minimal:hover {
+  color: #646cff !important;
+  text-decoration: underline;
+}

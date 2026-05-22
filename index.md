@@ -16,6 +16,10 @@ hero:
     - theme: alt
       text: GitHub
       link: https://github.com/HarisRanjha98
+    - theme: sponsor
+      text: LinkedIn
+      link: https://www.linkedin.com/in/muhammad-haris-2297a2146
+      
 ---
 <div id="work" class="noah-section">
   <div class="noah-number">01</div>
